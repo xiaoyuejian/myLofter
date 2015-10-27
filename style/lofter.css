@@ -1,0 +1,493 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	font-size: 12px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+#container{
+	margin: 0 auto;
+	width: 1076px;
+}
+/*第一部分-top********************************************/
+#top{
+	width: 1076px;
+	height: 720px;
+	margin-top: -35px;
+	background-image: url(../images/bg_top01.jpg);
+}
+#top_kongbai{
+	width: 1076px;
+	height: 130px;
+}
+#top_logo{
+	width: 426px;
+	height: 126px;
+	margin: 0px auto 60px;
+	background-image: url(../images/btn.png);
+}
+#top_nav{
+	width: 585px;
+	height: 56px;
+	margin: 0px auto;
+	
+}
+.lianjie_class{
+	font-size: 18px;
+	color: rgb(196,196,196);
+	background: url(../images/btn.png) ;
+	list-style-type: none;
+	float: left;
+	width: 194.8px;
+	height: 56px;
+}
+#zhuce{
+	background-position: -1px -274px;
+}
+#denglu{
+	background-position: -195px -274px;
+}
+#dwApp{
+	background-position: -388px -274px;
+}
+#top_region,#top_zhuce{
+	width: 525px;
+	height: 166px;
+	background-color: #fff;
+	margin: 0px auto;
+	padding: 30px;
+	text-align: left;
+}
+.top_region_right a{
+	display: block;
+	margin-left: -54px;
+	padding-left: 54px;
+	border-radius: 2px;
+	width: 107px;
+	height: 40px;
+}
+.top_region_right a:hover,#top_region_right a:active{
+	opacity: 0;
+	background-color: #eee;
+}
+#top_dwApp{
+	width: 444px;
+	height: 164px;
+	background-color: #fff;
+	margin: 0px auto;
+	padding: 40px 70px;
+	text-align: left;
+	font-size: 12px;
+	display: none;
+}
+#top_dwApp_left{
+	width: 219px;
+	height: 160px;
+	float: left;
+}
+#top_dwApp_left li{
+	list-style-type: none;
+	width: 219px;
+	height: 60px;
+	display: block;
+}
+#top_dwApp_left span{
+	display: inline-block;
+	width: 84px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+#top_dwApp_left a{
+	text-decoration: none;
+	width: 135px;
+	line-height: 40px;
+	display: inline-block;
+	overflow: hidden;
+	color: transparent;
+	background-image:url(../images/btn.png);
+}
+#iPhone{
+	background-position: -467px -587px;
+}
+#iPad{
+	background-position: -467px -647px;
+}
+#Android{
+	background-position: -467px -707px;
+}
+#top_dwApp_right{
+	width: 164px;
+	height: 164px;
+	float: right;
+	background-image: url(../images/erweima.png);
+}
+#top_zhuce{
+	display: none;
+}
+.top_region_left{
+	width: 300px;
+	height: 156px;
+	float: left;
+}
+.top_region_right{
+	width: 161px;
+	height: 156px;
+	float: right;
+}
+.top_region_right a{
+	text-decoration: none;
+	color: #fff;
+}
+.text_input{
+	width: 266px;
+	height: 22px;
+	padding: 9px 17px;
+}
+.btn_input{
+	width: 300px;
+	height: 40px;
+	background: url(../images/btn.png) ;
+	border: none;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+#region_foot{
+	width: 300px;
+	height: 16px;
+	margin-top: 10px;
+}
+.a_class{
+	text-decoration: none;
+	color: #000;
+}
+.region_right{
+	font-size: 14px;
+	background-image: url(../images/btn.png) ;
+	background-repeat: no-repeat;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	width: 108px;
+	height: 40px;
+	padding-left:54px; 
+	margin: 0px 0px 10px;
+}
+#top_sep{
+	width: 64px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	color: #aaa;
+}
+.sepln{
+	display: block;
+	height: 40px;
+	width: 1px;
+	margin: 0px auto;
+	background: #E7E7E7 none repeat scroll 0% 0%;
+}
+.sepln span{
+	text-align: center;
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+#wangjimima{
+	float: right;
+}
+#btn_denglu{
+	margin-top: 12px;
+	background-position: -1px -461px;
+}
+#sinaweibo{
+	background-position: -1px -600px;
+}
+#tengxunqq{
+	background-position: -1px -651px;
+}
+#weixin{
+	background-position: -213px -1191px;
+}
+#btn_zhuce{
+	margin-top: 12px;
+	background-position: -1px -461px;
+}
+#sinaweibo_zhuce{
+	background-position: -1px -600px;
+}
+#tengxunqq_zhuce{
+	background-position: -1px -651px;
+}
+#weixin_zhuce{
+	background-position: -213px -1191px;
+}
+#top_footer {
+	float: right;
+	height: 38px;
+	margin-top: 50px;
+	line-height: 38px;
+	padding-right: 76px;
+}
+#top_footer li{
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
+#top_footer a{
+	color: #fff;
+}
+/*第一部分-top结束*******************************************/
+/*第二部分-main*******************************************/
+#main {
+	width: 1076px;
+	height: auto;
+}
+.m_m{
+	width: 1076px;
+	height: auto;
+}
+.title{
+	width: 1076px;
+	height: 112px;
+}
+.title h2{
+	text-align: center;
+	line-height: 112px;
+	font-size: 46px;
+	font-weight: normal;
+}
+.text{
+	width: 1076px;
+	height: 141px;
+	font-size: 18px;
+	line-height: 38px;
+	text-align: center;
+}
+.text p{
+	padding: 0px 0px 69px;
+}
+.image{
+	text-align: center;
+	height: auto;
+}
+img{
+	margin: 0 auto 50px;
+}
+.content{
+	width: 960px;
+	height: 578px;
+	margin: 0 auto;
+}
+#con_02,#con_04{
+	width: 960px;
+	height: 289px;
+	margin: 0 auto;
+}
+#m_01{
+	background-color: #fff;
+}
+#m_03{
+	background-color: #fff;
+}
+#m_02{
+	background-color: #f8f8f8;
+}
+#m_04{
+	background-color: #f8f8f8;
+}
+.m_con{
+	width: 420px;
+	height: 229px;
+	margin: 20px;
+	float: left;
+}
+.m_con li{
+	margin: 0 auto;
+	width: 110px;
+	height: 90px;
+	list-style-type: none;
+	background-image: url(../images/icon.png);
+}
+.m_con h3{
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 36px;
+	margin: 25px 0px 18px;
+}
+.m_con p{
+	font-size: 14px;
+	line-height: 28px;
+	text-align: left;
+}
+#icon01{
+	background-position: 0px 0px;
+}
+#icon02{
+	background-position: -110px 0px;
+}
+#icon03{
+	background-position: -220px 0px;
+}
+#icon04{
+	background-position: -330px 0px;
+}
+#icon05{
+	background-position: -450px 0px;
+}
+#icon06{
+	background-position: -550px 0px;
+}
+#icon07{
+	background-position: -660px 0px;
+}
+#icon08{
+	background-position: -770px 0px;
+}
+/*第二部分-main结束*******************************************/
+/*第三部分-login*******************************************/
+#login{
+	width: 1076px;
+	height: 356px;
+	background-color: #fff;
+}
+#login_title{
+	width: 1076px;
+	height: 168px;
+}
+#login_title h2{
+	font-size: 46px;
+	font-weight: normal;
+	padding:72px 0px 16px;
+	letter-spacing: 2px;
+	line-height: 56px;
+}
+.song{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/btn.png) ;
+	background-position: -474px -824px;
+}
+#login_img span,#tanchu span{
+	width: 184px;
+	height: 24px;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0px 5px 0px 10px;
+}
+#login_cont{
+	width: 1076px;
+	height: 146px;
+	padding: 16px 0px 80px 12%;
+}
+#login_cont li{
+	margin:0px 10px 0px 0px;
+	list-style-type: none;
+	float: left;
+	width: 134px;
+	height: 50px;
+	padding:0px 0px 0px 66px;
+	line-height: 50px;
+	font-size: 18px;
+	text-align: left;
+	background-image: url(../images/btn.png);
+}
+#zhuce_youxiang{
+	background-position: -1px -880px;
+}
+#zhuce_weibo{
+	background-position: -211px -880px;
+}		
+#zhuce_qq{
+	background-position: -421px -880px;
+}
+#zhuce_weixin{
+	background-position: 0px -1190px;
+}
+/*第三部分-login结束*******************************************/
+/*第四部分-foot*******************************************/
+#foot{
+	width: 1076px;
+	height: 40px;
+	background: #f7f7f7 none repeat scroll;
+	padding: 30px 0px;
+	color: #74808b;
+}
+#foot_left{
+	width: 528px;
+	height: 16px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+#foot_right{
+	width: 528px;
+	height: 16px;
+	float: right;
+	padding-left: 10px;
+	text-align: left;
+}
+#foot a{
+	text-decoration: none;
+	color: #74808b;
+	text-align: center;
+	padding: 0px 1px;
+}
+/*第四部分-foot结束*******************************************/
+/*第五部分-tanchu*******************************************/
+#tanchu{
+	background-color: #fff;
+	display: none;
+	width: 956px;
+	height: 40px;
+	padding: 26px 60px;
+	text-align: center;
+	border-top: 1px solid #E6E6E6;
+	position:fixed; 
+	bottom:0; 
+	left:auto;
+}
+#tanchu .song,#tanchu span{
+	display: block;
+	float: left;
+}
+#tanchu span{
+	width: 204px;
+}
+#tanchu li{
+	margin:0px 10px 0px 0px;
+	list-style-type: none;
+	float: left;
+	width: 101px;
+	height: 40px;
+	padding:0px 0px 0px 60px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: left;
+
+	background-image: url(../images/btn.png);
+	background-repeat: no-repeat;
+}
+#login_cont a,#tanchu a{
+	text-decoration: none;
+	color: #fff;
+}
+#tanchu_youxiang{
+	background-position: -310px -461px;
+}
+#tanchu_weibo{
+	background-position: -1px -601px;
+}
+#tanchu_qq{
+	background-position: -1px -651px;
+}
+#tanchu_weixin{
+	background-position: -213px -1191px;
+}
+/*第五部分-tanchu结束*******************************************/
