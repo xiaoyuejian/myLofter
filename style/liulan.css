@@ -1,0 +1,332 @@
+#container{
+	width: 1076px;
+	margin: 0 auto;
+	text-align: center;
+}
+#liulan_nav{
+	margin: 20px auto;
+	width: 926px;
+	height: 92px;
+	background-color: #fff;
+}
+#liulan_nav li{
+	display: block;
+	float: left;
+	width: 184px;
+	height: 90px;
+	line-height: 90px;
+	list-style-type: none;
+}
+#liulan_nav_liulan{
+	border-bottom: 5px solid #9AC600;
+	border-right: 1px solid #eee;
+}
+#liulan_nav_huati{
+	border-right: 1px solid #eee;
+}
+#liulan_nav_biaoqian{
+	border-right: 1px solid #eee;
+}
+#liulan_nav_daren{
+	border-right: 1px solid #eee;
+}
+#liulan_nav_zhuanti{
+	
+}
+#liulan_nav a{
+	text-decoration: none;
+	color: #000;
+	font-size: 22px;
+}
+/****************/
+#main_liulan{
+	width: 926px;
+	height: 485px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+.con_huati_title{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-weight: normal;
+}
+.con_huati_num{
+	color: #aaa;
+	display: block;
+	margin-bottom: 20px;
+}
+.huati_con_img{
+	display: block;
+	width: 110px;
+	height: 110px;
+	margin: 2px;
+	float: left;
+	background-color: #333;
+}
+#huati_img_101{
+	margin-left:40px; 
+	background-image: url(../images/huati_img_101.jpg);
+}
+#huati_img_102{
+	
+}
+#huati_img_103{
+	margin-left:40px; 
+	background-image: url(../images/huati_img_103.jpg);
+}
+#huati_img_104{
+	
+}
+#huati_img_201{
+	margin-left:40px; 
+	background-image: url(../images/huati_img_201.jpg);
+}
+#huati_img_202{
+	background-image: url(../images/huati_img_202.jpg);
+}
+#huati_img_203{
+	margin-left:40px; 
+	background-image: url(../images/huati_img_203.jpg);
+}
+#huati_img_204{
+	background-image: url(../images/huati_img_204.jpg);
+}
+#main_liulan a{
+	text-decoration: none;
+	color: #000;
+}
+#main_biaoqian{
+	width: 926px;
+	height: 526px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+#main_daren{
+	width: 926px;
+	height: 623px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+.con_top{
+	width: 400px;
+	height: 34px;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	background-color: #f00;
+	
+}
+.con_img{
+	width: 405px;
+	height: 133px;
+	margin: 0 auto;
+}
+.con_img_class{
+	display: block;
+	width: 133px;
+	height: 133px;
+	float: left;
+	margin: 1px;
+}
+#con_img_101{
+	background-image: url(../images/con_img_101.jpg);
+	background-size: 100% 100%;
+}
+#con_img_102{
+	background-image: url(../images/con_img_102.jpg);
+	background-size: 100% 100%;
+}
+#con_img_103{
+	background-image: url(../images/con_img_103.jpg);
+	background-size: 100% 100%;
+}
+#con_img_201{
+	background-image: url(../images/con_img_201.jpg);
+	background-size: 100% 100%;
+}
+#con_img_202{
+	background-image: url(../images/con_img_202.jpg);
+	background-size: 100% 100%;
+}
+#con_img_203{
+	background-image: url(../images/con_img_203.jpg);
+	background-size: 100% 100%;
+}
+#con_img_301{
+	background-image: url(../images/con_img_301.jpg);
+	background-size: 100% 100%;
+}
+#con_img_302{
+	background-image: url(../images/con_img_302.jpg);
+	background-size: 100% 100%;
+}
+#con_img_303{
+	background-image: url(../images/con_img_303.jpg);
+	background-size: 100% 100%;
+}
+#con_img_401{
+	background-image: url(../images/con_img_401.jpg);
+	background-size: 100% 100%;
+}
+#con_img_402{
+	background-image: url(../images/con_img_402.jpg);
+	background-size: 100% 100%;
+}
+#con_img_403{
+	background-image: url(../images/con_img_403.jpg);
+	background-size: 100% 100%;
+}
+#main_zhuanti{
+	width: 926px;
+	height: 524px;
+	margin: 20px auto;
+	background-color: #fff;
+}
+#main_biaoqian .main_content{
+	padding: 28px;
+	width: 870px;
+	height: 346px;
+}
+#main_daren .main_content{
+	width: 926px;
+	height: 460px;
+}
+#main_zhuanti .main_content{
+	width: 911px;
+	height: 385px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.main_title{
+	width: 926px;
+	height: 59px;
+	line-height: 59px;
+	border-bottom: 1px solid #ccc;
+}
+.main_title h1{
+	letter-spacing: 5px;
+	font-size: 22px;
+}
+.main_content{
+	width: 926px;
+	height: 362px;
+	border-bottom: 1px solid #ccc;	
+}
+.main_con_huati{
+	width: 306px;
+	height: 362px;
+	float: left;
+}
+.main_con_biaoqian{
+	display: block;
+	width: 164px;
+	height: 164px;
+	float: left;
+	margin:5px;
+	background-color: #f3f3f3;
+}
+.main_con_daren{
+	width: 430px;
+	height: 202px;
+	padding: 16px;
+	float: left;
+}
+.main_con_zhuanti{
+	display: block;
+	width: 268px;
+	height: 155px;
+	margin: 15px;
+	float: left;
+}
+.main_content a:hover, a:active{
+	opacity: 0.6;
+	background-color: #33f;
+}
+#zhuanti_con_01{
+	background-image: url(../images/zhuanti_01.jpg);
+}
+#zhuanti_con_02{
+	background-image: url(../images/zhuanti_02.jpg);
+}
+#zhuanti_con_03{
+	background-image: url(../images/zhuanti_03.jpg);
+}
+#zhuanti_con_04{
+	background-image: url(../images/zhuanti_04.jpg);
+}
+#zhuanti_con_05{
+	background-image: url(../images/zhuanti_05.jpg);	
+}
+#zhuanti_con_06{
+	background-image: url(../images/zhuanti_06.jpg);
+}
+#daren_con_01{
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#daren_con_02{
+	border-bottom: 1px solid #ccc;
+}
+#daren_con_03{
+	border-right: 1px solid #ccc;
+}
+#daren_con_04{
+	
+}
+#huati_con_01{
+	border-right: 1px solid #ccc;
+}
+#huati_con_02{
+	border-right: 1px solid #ccc;
+}
+#huati_con_03{
+
+}
+#biaoqian_con_01{
+	background-image: url(../images/biaoqian_01.jpg);
+}
+#biaoqian_con_02{
+	background-image: url(../images/biaoqian_02.jpg);
+}
+#biaoqian_con_03{
+	background-image: url(../images/biaoqian_03.jpg);
+}
+#biaoqian_con_04{
+	background-image: url(../images/biaoqian_04.jpg);
+}
+#biaoqian_con_05{
+	background-image: url(../images/biaoqian_05.jpg);
+}
+#biaoqian_con_06{
+	background-image: url(../images/biaoqian_06.jpg);
+}
+#biaoqian_con_07{
+	background-image: url(../images/biaoqian_07.jpg);
+}
+#biaoqian_con_08{
+	background-image: url(../images/biaoqian_08.jpg);
+}
+#biaoqian_con_09{
+	background-image: url(../images/biaoqian_09.jpg);
+}
+#biaoqian_con_10{
+	background-image: url(../images/biaoqian_10.jpg);
+}
+.main_other{
+	float: left;
+	width: 926px;
+	height: 60px;
+}
+.main_other a{
+	display: block;
+	width: 926px;
+	height: 60px;
+	line-height: 60px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #666;
+}
+/***************/
+/***********************************************/
+#liulan_main{
+	width: 1076px;
+}

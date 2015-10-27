@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	margin: 0 auto;
+}
+#app_main{
+	width: 1076px;
+	height: auto;
+	padding: 0px 0px 20px;
+}
+.app_img{
+	background: url(../images/heise_beijing.png);
+}
+#app_01{
+	width: 930px;
+	height: 550px;
+	margin: 0 auto;
+}
+#app_left{
+	width: 380px;
+	height: 550px;
+	float: left;
+	background: transparent url(../images/app_01.png) no-repeat scroll left 145px;
+}
+#app_left a,#app_04 a{
+	display: block;
+	position: relative;
+    	width: 156px;
+    	height: 45px;
+    	border-radius: 5px;
+    	text-decoration: none;
+    	color: #f00;
+    	font-size: 20px;
+}
+#app_main a:hover,a:active{
+	background-color: #ddd;
+	opacity: 0.3;
+}
+.btn_01{
+  	left: 210px;
+ 	top: 200px;
+}
+#app_04 .btn_01{
+  	left: 375px;
+ 	top: 460px;
+}
+.btn_02{
+  	left: 210px;
+ 	top: 220px;
+}
+#app_04 .btn_02{
+  	left: 375px;
+ 	top: 483px;
+}
+.btn_03{
+  	left: 210px;
+ 	top: 240px;
+}
+#app_04 .btn_03{
+  	left: 375px;
+ 	top: 505px;
+}
+.btn_04{
+	display: block;
+	position: relative;
+	width: 380px;
+	height: 45px;
+	font-size: 18px;
+	letter-spacing: 3px;
+	color: #fff;
+  	left: 0px;
+ 	top: 283px;
+ 	border-radius: 45px;
+}
+#app_04 .btn_04{
+	left: 160px;
+ 	top: 542px;
+}
+#app_right{
+	width: 545px;
+	height: 550px;
+	float: right;
+	margin: 0px -20px 0px 0px;
+	background: transparent url(../images/app_02.png) no-repeat scroll center 65px;
+}
+#app_02{
+	height: 800px;
+	margin: 0 auto;
+	background-color: #2e2e2e;
+	background:transparent url(../images/app_03.png) no-repeat scroll center 75px;
+}
+#app_03{
+	height: 800px;
+	margin: 0 auto;
+	background:transparent  url(../images/app_04.jpg) no-repeat scroll center 75px;
+}
+#app_04{
+	width: 700px;
+	height: 820px;
+	margin: 0 auto;
+	background-color: #2e2e2e;
+	background:transparent  url(../images/app_05.png) no-repeat scroll center 75px;
+}

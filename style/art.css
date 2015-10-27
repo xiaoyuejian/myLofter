@@ -1,0 +1,254 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#container{
+	width: 1076px;
+	height: auto;
+	margin: 0 auto;
+}
+/***********************************************/
+#art_foot{
+	width: 1076px;
+	height: 40px;
+	background: #fff none repeat scroll;
+	padding: 30px 0px;
+	color: #74808b;
+	margin-top: 2px;
+}
+#art_foot_left{
+	width: 528px;
+	height: 16px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+#art_foot_right{
+	width: 528px;
+	height: 16px;
+	float: right;
+	padding-left: 10px;
+	text-align: left;
+}
+#art_foot a{
+	text-decoration: none;
+	color: #74808b;
+	text-align: center;
+	padding: 0px 1px;
+}
+/*********************************************/
+#art_top{
+	width: 1076px;
+	height: 110px;
+	background-color: #000;
+}
+.art_nav_mid{
+	float: left;
+	width: 230px;
+	height: 32px;
+}
+.art_nav_right{
+	width: 302px;
+	height: 36px;
+	float: right;
+}
+#art_nav_gouwuche{
+	display: block;
+	float: right;
+	margin-right: 60px;
+}
+#gouwuche_num{
+	display: block;
+	float: right;
+	width: 34px;
+	height: 34px;
+}
+.art_nav{
+	display: block;
+	float: left;
+	margin: 40px 0px 0px;
+	width: 115px;
+	height: 32px;
+	color: #7F7F7F;
+	font-size: 24px;
+	text-decoration: none;
+}
+#art_top_nav a:hover,a:active{
+	color: #fff;
+}
+#art_top_logo{
+	margin: 20px 100px 0px 30px;
+	display: block;
+	float: left;
+	width: 290px;
+	height: 70px;
+	background:transparent url(../images/art_logo.png) no-repeat;
+}
+/*******************第二部分*图片轮播************************/
+.art_canv{
+	width: 1076px;
+	height: 568px;
+	margin: 0px auto;
+}
+.art_canv_left{
+	width: 430px;
+	height: 435px;
+	float: left;
+	background-color: #f00;
+}
+.art_canv_right{
+	width: 646px;
+	height: 435px;
+	float: left;
+	background-size: 100% 100%;
+	background-image: url(../images/canv_102.png);
+}
+/********************************************/
+#art_main{
+	width: 1076px;
+	height: 1420px;
+	margin:0 auto;
+	
+}
+.art_main_div{
+	width: 1016px;
+	height: 760px;
+	padding: 0px 30px;
+	background-color: #fff;
+	border-bottom: 1px solid #bbb;
+}
+.art_main_div_card{
+	width: 1016px;
+	height: 660px;
+	padding: 0px 30px;
+	background-color: #fff;
+}
+.art_main_title{
+	width: 1016px;
+	height: 97px;
+	margin: 0 auto;
+	line-height: 97px;
+}
+.art_main_title h1{
+	font-size: 38px;
+	color: #333;
+	font-weight: normal;
+}
+.art_main_con{
+	width: 1016px;
+	height: 480px;
+	margin: 0 auto;
+	padding-left: 8px;
+}
+.art_other_a{
+	display: block;
+	width: 1016px;
+	height: 50px;
+	float: left;
+	margin: 0 auto;
+	text-decoration: none;
+	background: #F6F6F6 none repeat scroll 0% 0%;
+	font-size: 18px;
+	color: #666;
+	line-height: 50px;
+	text-align: center;
+}
+.art_con{
+	width: 239px;
+	height: 218px;
+	float: left;
+	margin:0px 15px 15px 0px;
+}
+.art_main_con_kuanghua{
+	width: 1016px;
+	height: 568px;
+	margin: 0 auto;
+	padding-left: 8px;
+}
+.art_con_kuanghua{
+	width: 239px;
+	height: 279px;
+	float: left;
+	margin:0px 15px 15px 0px;
+}
+.art_con_img_kuanghua{
+	display: block;
+	width: 239px;
+	height: 239px;
+	background-size: 100% 100%;
+}
+#art_con_img_1{
+	background-image: url(../images/art_con_img_1.jpg);
+}
+#art_con_img_2{
+	background-image: url(../images/art_con_img_2.jpg);
+}
+#art_con_img_3{
+	background-image: url(../images/art_con_img_3.jpg);
+}
+#art_con_img_4{
+	background-image: url(../images/art_con_img_4.jpg);
+}
+#art_con_img_5{
+	background-image: url(../images/art_con_img_5.jpg);
+}
+#art_con_img_6{
+	background-image: url(../images/art_con_img_6.jpg);
+}
+#art_con_img_7{
+	background-image: url(../images/art_con_img_7.jpg);
+}
+#art_con_img_8{
+	background-image: url(../images/art_con_img_8.jpg);
+}
+.art_con_img{
+	display: block;
+	width: 239px;
+	height: 170px;
+	background-size: 100% 100%;
+}
+#art_con_img_01{
+	background-image: url(../images/art_con_img_01.jpg);
+}
+#art_con_img_02{
+	background-image: url(../images/art_con_img_02.jpg);
+}
+#art_con_img_03{
+	background-image: url(../images/art_con_img_03.jpg);
+}
+#art_con_img_04{
+	background-image: url(../images/art_con_img_04.jpg);
+}
+#art_con_img_05{
+	background-image: url(../images/art_con_img_05.jpg);
+}
+#art_con_img_06{
+	background-image: url(../images/art_con_img_06.jpg);
+}
+#art_con_img_07{
+	background-image: url(../images/art_con_img_07.jpg);
+}
+#art_con_img_08{
+	background-image: url(../images/art_con_img_08.jpg);
+}
+/*******************************************************************/
+.art_con_zuopin {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	color: #444;
+	text-align: left;
+	line-height: 40px;
+}
+.art_con_author{
+	display: block;
+	float: left;
+	width: 119px;
+	height: 40px;
+	text-decoration: none;
+	color: #444;
+	text-align: right;
+	line-height: 40px;
+}
